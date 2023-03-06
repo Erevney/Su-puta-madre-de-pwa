@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "peliculasAppe": {
+    "peliculasApp": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "peliculasAppe:build:production"
+              "browserTarget": "peliculasApp:build:production"
             },
             "development": {
-              "browserTarget": "peliculasAppe:build:development"
+              "browserTarget": "peliculasApp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "peliculasAppe:build"
+            "browserTarget": "peliculasApp:build"
           }
         },
         "test": {
